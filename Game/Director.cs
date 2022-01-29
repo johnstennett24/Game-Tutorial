@@ -37,10 +37,8 @@ public class Director
          string userinput = Console.ReadLine();
          if (userinput == "y")
          {
-            Console.WriteLine("Great! Let's start the game!");
-            Console.WriteLine("Awesome, What is your adventurer's name? ");
-            string name = Console.ReadLine();
-            
+            Person person = new Person();
+            person.createPerson();
          }
          
     }
