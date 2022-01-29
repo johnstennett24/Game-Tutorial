@@ -1,0 +1,22 @@
+Title: New Oregon Trail 2022
+
+Design:
+        This version of Oregon trail consists of potions of healing, finding caves with chests in them and then finding chests in those
+        caves. You also will have to fight enemies like snakes and bears that can kill you. The total distance to the destination is
+        1000 meters. Each move will have the choice of 10, 50, or 100 meters. Each taking more tole on you than the last.
+    Classes:
+
+        Person: Creates an instance of a person with 100 hp.
+                Movement
+
+        Director: Directs the game and when the game starts and ends as well as events in the game.
+
+        Enemy: Enemy has 25 hp
+                To create an enemy it has to be assigned a random number between 1-100 and then when that number is hit by the random
+                generator. The enemy spawns and then must fight or attack the player.    
+
+        Chest: Chests are things that players can find that give the players new things to use in their journey to Oregon.
+                Swords, Food, Potions, Guns
+
+        Ox: Ox carries your stuff forward. As long as you have an ox and a cart you will be able to travel with more stuff.
+        
